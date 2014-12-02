@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeWalk</string>
+    <string name="server">Server</string>
+    <string name="client">Client</string>
+    <string name="submit">Submit</string>
+    <string name="match">Match</string>
+    <string name="start_over">Start Over</string>
+    <string name="default_host">10.0.2.2</string>
+    <string name="default_port">8888</string>
+    <string name="default_command">:FAKE_COMMAND</string>
+    <string name="host">Host</string>
+    <string name="port">Port</string>
+    <string name="nameString">Name</string>
+    <string name="preferencesString">Preferences</string>
+    <string name="requestString">I am a Requester. Match me with volunteer,</string>
+    <string name="volunteerString">I am a Volunteer. Match me with requester.</string>
+    <string name="noPreferenceString">I have no preference.</string>
+    <string name="fromHeaderString">From</string>
+    <string name="EnterYourName">Enter Your Name</string>
+    <string name="toHeaderString">To</string>
+     <string-array name="fromOptions">
+        <item>LWSN</item>
+        <item>CL50</item>
+        <item>EE</item>
+        <item>PMU</item>
+        <item>PUSH</item>
+    </string-array>
+     <string-array name="toOptions">
+        <item>LWSN</item>
+        <item>CL50</item>
+        <item>EE</item>
+        <item>PMU</item>
+        <item>PUSH</item>
+        <item>*</item>
+    </string-array>
+        <string name="partenerString">Partner</string>
+    
+</resources>

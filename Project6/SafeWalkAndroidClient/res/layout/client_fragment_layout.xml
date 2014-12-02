@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="138dp"
+        android:layout_y="62dp"
+        android:ems="10"
+        android:hint="@string/EnterYourName"
+        android:inputType="textNoSuggestions"
+        android:textSize="@dimen/text_size_medium" />
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="162dp"
+        android:text="@string/preferencesString"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <RadioButton
+        android:id="@+id/type1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="195dp"
+        android:checked="false"
+        android:text="@string/requestString"
+        android:textSize="@dimen/text_size_small" />
+
+    <RadioButton
+        android:id="@+id/type2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="245dp"
+        android:text="@string/volunteerString"
+        android:textSize="@dimen/text_size_small" />
+
+    <RadioButton
+        android:id="@+id/type0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="295dp"
+        android:text="@string/noPreferenceString"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:id="@+id/info3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="384dp"
+        android:text="@string/fromHeaderString"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/fromSpinner"
+        android:layout_width="456dp"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="444dp"
+        android:entries="@array/fromOptions" />
+
+    <TextView
+       android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="543dp"
+        android:text="@string/toHeaderString"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/toSpinner"
+        android:layout_width="456dp"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="613dp" 
+        android:entries="@array/toOptions" />
+
+    <Button
+        android:id="@+id/bu_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="244dp"
+        android:layout_y="768dp"
+        android:enabled="true"
+        android:onClick="onSubmit"
+        android:text="@string/submit" />
+   
+</AbsoluteLayout>
